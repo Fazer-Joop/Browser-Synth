@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Synth-1</title>
+		<link href = "css/app.css" rel = "stylesheet"/>
+		<script src = "js/java.js"></script>
+	</head>
+	<body>
+		<div class = "application">
+			<header>
+				<h1>Synth 1</h1>
+			</header>
+			<div class = "osc-controls">
+				<h2>Frequency</h2>
+				<form>
+					<input id = "on-off" type = "button" value = "start">
+					<span>Click to start oscillator</span>
+					<p>Use the slider to modify frequency</p>
+					<input type = "range">
+				</form>
+			</div>
+			<div class = "osc-controls">
+				<h2>Waveform</h2>
+				<ul id = "oscillator-list">
+					<li id = "sawtooth">Sawtooth</li>
+					<li id = "sine">Sine</li>
+					<li id = "triangle">Triangle</li>
+					<li id = "square">Square</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
